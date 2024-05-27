@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DD3333; /* Dark Red background */
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #F2F2F2; /* Grey background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: white; /* Text color matches the header background */
+    font-size: 2rem; /* Enlarge the font size */
+    margin-bottom: 20px;
+    background-color: #DD3333; /* Highlight color for headings */
+    padding: 15px 20px; /* Increase padding for better alignment */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #DD3333; /* Red background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #BB2D2D; /* Darker red on hover */
+}
+
+.project-list a {
+    color: #DD3333; /* Highlight color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-list a:hover {
+    color: #BB2D2D; /* Darker red on hover */
+}
+
+/* Responsive design for the contact form */
+@media (min-width: 768px) {
+    .contact-form input[type="text"],
+    .contact-form input[type="email"] {
+        width: 48%; /* Adjust width for larger screens */
+    }
+}
